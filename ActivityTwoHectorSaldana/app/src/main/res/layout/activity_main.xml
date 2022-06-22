@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.wear.widget.BoxInsetLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/box_inset_layout_padding"
+    tools:context=".MainActivity"
+    tools:deviceIds="wear">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/txtDisplayID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLength="14"
+            android:text="@string/_Display"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dimenDisplay"
+            android:textStyle="bold" />
+
+
+        <RelativeLayout
+            android:id="@+id/firstLine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtDisplayID">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/btn7"
+                    android:layout_width="@dimen/dimenBoxButton"
+                    android:layout_height="@dimen/dimenBoxButton"
+                    android:backgroundTint="@color/blackSoft"
+                    android:text="@string/_7"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/dimenTextSize"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btn8"
+                    android:layout_width="@dimen/dimenBoxButton"
+                    android:layout_height="@dimen/dimenBoxButton"
+                    android:backgroundTint="@color/blackSoft"
+                    android:text="@string/_8"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/dimenTextSize"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btn9"
+                    android:layout_width="@dimen/dimenBoxButton"
+                    android:layout_height="@dimen/dimenBoxButton"
+                    android:backgroundTint="@color/blackSoft"
+                    android:text="@string/_9"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/dimenTextSize"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btnDivide"
+                    android:layout_width="@dimen/dimenBoxButton"
+                    android:layout_height="@dimen/dimenBoxButton"
+                    android:backgroundTint="@color/orange"
+                    android:text="@string/_Divide"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/dimenTextSize"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/secondLine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/firstLine">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/btn4"
+                    android:layout_width="@dimen/dimenBoxButton"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="@color/blackSoft"
+                    android:text="@string/_4"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/dimenTextSize"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btn5"
+                    android:layout_width="@dimen/dimenBoxButton"
+                    android:layout_height="@dimen/dimenBoxButton"
+                    android:backgroundTint="@color/blackSoft"
+                    android:text="@string/_5"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/dimenTextSize"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btn6"
+                    android:layout_width="@dimen/dimenBoxButton"
+                    android:layout_height="@dimen/dimenBoxButton"
+                    android:backgroundTint="@color/blackSoft"
+                    android:text="@string/_6"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/dimenTextSize"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btnMultiply"
+                    android:layout_width="@dimen/dimenBoxButton"
+                    android:layout_height="@dimen/dimenBoxButton"
+                    android:backgroundTint="@color/orange"
+                    android:text="@string/_Multiply"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/dimenTextSize"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/thirdLine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/secondLine">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/btn1"
+                    android:layout_width="@dimen/dimenBoxButton"
+                    android:layout_height="@dimen/dimenBoxButton"
+                    android:backgroundTint="@color/blackSoft"
+                    android:text="@string/_1"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/dimenTextSize"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btn2"
+                    android:layout_width="@dimen/dimenBoxButton"
+                    android:layout_height="@dimen/dimenBoxButton"
+                    android:backgroundTint="@color/blackSoft"
+                    android:text="@string/_2"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/dimenTextSize"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btn3"
+                    android:layout_width="@dimen/dimenBoxButton"
+                    android:layout_height="@dimen/dimenBoxButton"
+                    android:backgroundTint="@color/blackSoft"
+                    android:text="@string/_3"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/dimenTextSize"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btnSubtract"
+                    android:layout_width="@dimen/dimenBoxButton"
+                    android:layout_height="@dimen/dimenBoxButton"
+                    android:backgroundTint="@color/orange"
+                    android:text="@string/_Subtract"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/dimenTextSize"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/fourthLine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/thirdLine">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/btnCE"
+                    android:layout_width="@dimen/dimenBoxButton"
+                    android:layout_height="@dimen/dimenBoxButton"
+                    android:backgroundTint="@color/blackSoft"
+                    android:text="@string/_c"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/dimenTextSize"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btn0"
+                    android:layout_width="@dimen/dimenBoxButton"
+                    android:layout_height="@dimen/dimenBoxButton"
+                    android:backgroundTint="@color/blackSoft"
+                    android:text="@string/_0"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/dimenTextSize"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btnPoint"
+                    android:layout_width="@dimen/dimenBoxButton"
+                    android:layout_height="@dimen/dimenBoxButton"
+                    android:backgroundTint="@color/blackSoft"
+                    android:text="@string/_Point"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/dimenTextSize"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btnAdd"
+                    android:layout_width="@dimen/dimenBoxButton"
+                    android:layout_height="@dimen/dimenBoxButton"
+                    android:backgroundTint="@color/orange"
+                    android:text="@string/_Add"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/dimenTextSize"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btnEquals"
+            android:layout_width="130dp"
+            android:layout_height="@dimen/dimenBoxButton"
+            android:layout_below="@id/fourthLine"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="@color/white"
+            android:text="@string/_Equal"
+            android:textColor="@color/blackSoft"
+            android:textSize="@dimen/dimenTextSize"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+
+</androidx.wear.widget.BoxInsetLayout>

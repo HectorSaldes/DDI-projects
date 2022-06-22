@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ActivityFour</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <string name="title_activity_main_activity2_test">MainActivity2_test</string>
+    <string name="history">
+Hace muchos años, en un lejano país, había una preciosa muchacha de ojos verdes y rubia melena. Además de bella,  era una joven tierna que trataba a todo el mundo con amabilidad y siempre tenía una sonrisa en los labios.
+    </string>
+    <string name="cuento">Cuento</string>
+    <string name="ritmo_cardiaco">Ritmo cardiaco</string>
+    <string name="musica">Música</string>
+    <string name="title_activity_main_heart_beat">MainActivityHeartBeat</string>
+    <string name="chistes">Chistes</string>
+    <string name="title_activity_main_jokes">MainActivityJokes</string>
+</resources>
