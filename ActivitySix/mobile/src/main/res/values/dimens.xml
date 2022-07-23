@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dimen_image">100dp</dimen>
+    <dimen name="dimen_image_default">80dp</dimen>
+    <dimen name="dimen_padding_activity">10dp</dimen>
+</resources>

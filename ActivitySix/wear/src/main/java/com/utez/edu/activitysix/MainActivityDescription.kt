@@ -19,8 +19,8 @@ class MainActivityDescription : Activity() {
         binding = ActivityMainDescriptionBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.txtTitle.text = intent.extras?.getString(MainActivityDescription.TITLE)
-        binding.txtDescription.text = intent.extras?.getString(MainActivityDescription.DESCRIPTION)
+        binding.txtTitle.text = intent.extras?.getString(TITLE)
+        binding.txtDescription.text = intent.extras?.getString(DESCRIPTION)
 
     }
 }

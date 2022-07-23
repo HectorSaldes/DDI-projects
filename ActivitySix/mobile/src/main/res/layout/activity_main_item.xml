@@ -5,22 +5,22 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="@dimen/dimen_padding_activity"
-    tools:context=".MainActivity">
+    tools:context=".MainActivityItem">
 
     <TextView
-        android:id="@+id/txtTitle"
+        android:id="@+id/txtItem"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/menu"
         android:textColor="?attr/textColor"
         android:textSize="48sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        tools:text="Item" />
 
     <View
         android:id="@+id/vwLine"
         android:layout_width="match_parent"
         android:layout_height="3dp"
-        android:layout_below="@id/txtTitle"
+        android:layout_below="@id/txtItem"
         android:background="?attr/textColor"
         android:layout_marginBottom="@dimen/dimen_padding_activity"/>
 
@@ -35,12 +35,13 @@
         android:visibility="visible" />
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rvMenu"
+        android:id="@+id/rvItem"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@id/vwLine"
-        tools:itemCount="10"
+        tools:itemCount="2"
         tools:listitem="@layout/activity_preview_item" />
+
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fabCreate"
@@ -55,5 +56,6 @@
         android:contentDescription="@string/crear"
         android:src="@drawable/ic_add"
         app:fabCustomSize="70dp" />
+
 
 </RelativeLayout>
